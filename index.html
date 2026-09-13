@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MaidCare - Domestic Help Services</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>MaidCare</h2>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#helpers">Helpers</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button onclick="login()">Login</button>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div>
+            <h1>Trusted Domestic Help at Your Doorstep</h1>
+
+            <p>
+                Find verified maids, babysitters and nannies
+                for your home.
+            </p>
+
+            <button onclick="scrollToHelpers()">
+                Find a Helper
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- Helpers -->
+    <section id="helpers">
+
+        <h2>Our Helpers</h2>
+
+        <p class="section-text">
+            Choose from our verified and experienced helpers.
+        </p>
+
+        <div class="helper-container">
+
+            <div class="card">
+                <div class="person">👩</div>
+
+                <h3>Priya Sharma</h3>
+
+                <p>⭐ 4.9 | ✔ Verified</p>
+
+                <p>House Maid</p>
+
+                <p>5 Years Experience</p>
+
+                <p>₹4,999 / month</p>
+
+                <button onclick="bookHelper('Priya Sharma')">
+                    Book Now
+                </button>
+            </div>
+
+
+            <div class="card">
+                <div class="person">👩‍🍼</div>
+
+                <h3>Neha Verma</h3>
+
+                <p>⭐ 4.8 | ✔ Verified</p>
+
+                <p>Babysitter</p>
+
+                <p>4 Years Experience</p>
+
+                <p>₹5,499 / month</p>
+
+                <button onclick="bookHelper('Neha Verma')">
+                    Book Now
+                </button>
+            </div>
+
+
+            <div class="card">
+                <div class="person">👩</div>
+
+                <h3>Anita Singh</h3>
+
+                <p>⭐ 5.0 | ✔ Verified</p>
+
+                <p>Full-Time Nanny</p>
+
+                <p>7 Years Experience</p>
+
+                <p>₹5,999 / month</p>
+
+                <button onclick="bookHelper('Anita Singh')">
+                    Book Now
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing">
+
+        <h2>Our Service Plans</h2>
+
+        <div class="pricing-container">
+
+            <div class="price-card">
+                <h3>Hourly</h3>
+                <h2>₹199/hour</h2>
+                <p>Flexible short-term help</p>
+                <button onclick="selectPlan('Hourly')">
+                    Select Plan
+                </button>
+            </div>
+
+
+            <div class="price-card">
+                <h3>Monthly</h3>
+                <h2>₹4,999/month</h2>
+                <p>Regular household assistance</p>
+                <button onclick="selectPlan('Monthly')">
+                    Select Plan
+                </button>
+            </div>
+
+
+            <div class="price-card">
+                <h3>Yearly</h3>
+                <h2>₹49,999/year</h2>
+                <p>Long-term reliable service</p>
+                <button onclick="selectPlan('Yearly')">
+                    Select Plan
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>📞 +91 98765 43210</p>
+
+        <p>📧 support@maidcare.com</p>
+
+        <p>📍 Mumbai, Maharashtra</p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 MaidCare. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
